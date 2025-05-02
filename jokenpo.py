@@ -1,4 +1,3 @@
-# Trabalho Jokenpô - Luana Vendramini, Geovanna Karolyne Javé Soto, Clara Amazonas Pereira da Costa
 import random #Importa jogadas aleatórias
 while True:
 # Mostra o menu de escolha de modo de jogo.
@@ -82,7 +81,6 @@ while True:
                 print(nome1 + ": " + str(ponto1))
                 print(nome2 + ": " + str(ponto2))
                 print("============================")
-                print("Esse jogo foi feito por Luana Vendramini, Geovanna Karolyne Javé Soto, Clara Amazonas Pereira da Costa.")
                 break # Sai do while
 
     # Verifica o modo de jogo escolhido pelo usuário, no caso 2 (Humano V.S Computador).
@@ -152,8 +150,6 @@ while True:
         print(f"Você: {placar_humano} vitórias")
         print(f"Computador: {placar_computador} vitórias")
         print("==============================")
-        print("Trabalho feito por: Luana Vendramini, Geovanna Karolyne Javé Soto, Clara Amazonas Pereira da Costa")
-
 
     # Verifica o modo de jogo escolhido pelo usuário, no caso 3 (Computador V.S Computador).
     elif modoJogo == 3:
@@ -229,7 +225,6 @@ while True:
                 print("\nCPU2 Venceu o Jogo!")
                 print("---------------------------------------------------")
                 print("Obrigada por assistir")
-                print("Trabalho feito por: Luana Vendramini, Clara Amazonas e Geovanna Karolyne")
                 break
 
             rodada += 1
